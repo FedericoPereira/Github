@@ -29,5 +29,7 @@ var r6 = (r1) - (yfinal);
 var xfinal = (r6)/(x1);
 
 swal('El punto de interseccion es ' + xfinal + ' ;  ' + yfinal);
-
+}
+function ls0(){
+	window.location.href = "sistemaslineales.html";
 }
