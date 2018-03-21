@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script type="text/javascript" src="Ecuaciones. js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="master.css">
+  <meta charset="utf-8">
+  <title>Sistemas Lineales</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Función 1</h1>
+    <div class="row" r1>
+      <div class="col">
+        <p class="groove">Ingrese valor de X</p>
+      </div>
+      <div class="col">
+        <input type="hidden" id="unaide">
+        <input type="number" id="x1">
+      </div>
+    </div>
+    <div class="row" y1>
+      <div class="col">
+        <p class="groove">Ingrese valor de Y</p>
+      </div>
+      <div class="col">
+        <input type="number" id="y1">
+      </div>
+    </div>
+    <div class="row" r1>
+      <div class="col">
+        <p class="groove">Ingrese el resultado</p>
+      </div>
+      <div class="col">
+        <input type="number" id="r1">
+      </div>
+    </div>
+    <h1> Función 2</h1>
+    <div class="row">
+      <div class="col">
+        <p class="groove">Ingrese valor de X</p>
+      </div>
+      <div class="col">
+        <input type="number" id="x2">
+      </div>
+    </div>
+    <div class="row" y2>
+      <div class="col">
+        <p class="groove">Ingrese valor de Y</p>
+      </div>
+      <div class="col">
+        <input type="number" id="y2">
+      </div>
+    </div>
+    <div class="row" r2>
+      <div class="col">
+        <p class="groove">Ingrese el resultado</p>
+      </div>
+      <div class="col">
+        <input type="number" id="r2">
+      </div>
+    </div>
+    <div class="col">
+      <!-- <button type="button" class="btn btn-primary btn-block" onclick="pagina()"> Cambiar pagina</button> -->
+      <button type="button" class="btn btn-primary btn-block" onclick="calcular()"> OK </button>
+      </div>
+    </div>
+  </body>
+</html>
