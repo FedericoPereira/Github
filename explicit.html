@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="master.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="Ecuaciones.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Punto 1</h1>
+    <div class="row" r1>
+      <div class="col">
+        <p class="groove">Ingrese valor de X</p>
+      </div>
+      <div class="col">
+        <input type="number" id="x1">
+      </div>
+    </div>
+    <div class="row" y1>
+      <div class="col">
+        <p class="groove">Ingrese valor de Y</p>
+      </div>
+      <div class="col">
+        <input type="number" id="y1">
+      </div>
+    </div>
+
+    <h1> Punto 2</h1>
+    <div class="row">
+      <div class="col">
+        <p class="groove">Ingrese valor de X</p>
+      </div>
+      <div class="col">
+        <input type="number" id="x2">
+      </div>
+    </div>
+    <div class="row" y2>
+      <div class="col">
+        <p class="groove">Ingrese valor de Y</p>
+      </div>
+      <div class="col">
+        <input type="number" id="y2">
+      </div>
+    </div>
+
+    <div class="col">
+      <button type="button" class="btn btn-primary btn-block" onclick="calcularExplicita()"> <strong>Hallar ecucacion explicita</strong> </button>
+    </div>
+  </div>
+</body>
+
+</html>
