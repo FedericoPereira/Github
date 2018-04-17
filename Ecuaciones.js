@@ -24,7 +24,7 @@ function calcular() {
   // // Valor de Y
   var yfinal = (r5) / (y5);
   // // Averiguar X
-  var r6 = (r1) - (yfinal);
+  var r6 = (r1) - (y1* yfinal);
   // // Valor de X
   var xfinal = (r6) / (x1);
 

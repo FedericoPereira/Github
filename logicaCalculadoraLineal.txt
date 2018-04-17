@@ -1,0 +1,18 @@
+reiniciar
+'Terminar el pseudocodigo de reiniciar
+        txtEq1x.Clear()
+        txtEq1y.Clear()
+        txtEq2x.Text = ""
+        txtEq2y.Clear()
+        txtEq1Resultado.Clear()
+        txtEq2Resultado.Clear()
+        lblResultado.ResetText()
+------------------------------------------------------
+Dim x1 , y1 , r1 , x2 , y2 , r2 As Integer
+
+	If (Not Int32.TryParse(txtEq1x.Text, x1))
+		" Error "
+	Elseif(Not Int32.TryParse(txtEq1x.Text, y1))
+		MessageBox.Show("Debe ingresar el valor y2", "Error")
+ 
+            lblResultado.Text = "x=" & x & ", y=" & y
